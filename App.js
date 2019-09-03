@@ -72,15 +72,16 @@ export default createBottomTabNavigator({
 {
   tabBarOptions: {
     activeTintColor: 'red',
-    inactiveTintColor: 'gray',
+    inactiveTintColor: '#000',
     style: {
       backgroundColor: 'white',
       borTopWidth: 0,
       shadowOffset: {width: 5, height: 3},
       shadowColor: 'black',
-      shadowOpacity: 0.5,
+      // shadowOpacity: 0.5,
       elevation: 5,
-      paddingTop: 3
+      paddingTop: 3,
+      fontWeight: '700'
     }
   }
 })

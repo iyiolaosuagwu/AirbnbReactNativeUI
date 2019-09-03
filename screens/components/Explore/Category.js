@@ -10,7 +10,7 @@ class Category extends Component{
                <Image source={this.props.imageUri} style={styles.image}/>
             </View>
             <View style={{flex: 1}}>
-               <Text style={{paddingLeft: 10, paddingTop: 10,fontWeight: '600'}}>{this.props.name}</Text>
+               <Text style={{paddingLeft: 10, paddingTop: 10,fontWeight: '700', fontSize: 13}}>{this.props.name}</Text>
             </View>
          </View>
       )

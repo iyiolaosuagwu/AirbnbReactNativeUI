@@ -5,7 +5,7 @@ import { View, Text, StyleSheet } from 'react-native';
 class Saved extends Component{
    render() {
       return (
-         <View>
+         <View style={styles.container}>
             <Text>Saved</Text>
          </View>
       )
@@ -15,4 +15,11 @@ class Saved extends Component{
 
 export default Saved;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});

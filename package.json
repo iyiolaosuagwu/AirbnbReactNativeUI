@@ -7,11 +7,19 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "ios": {
+    "supportsTablet": true
+  },
+  "android": {
+    "package": "iyiola"
+  },
   "dependencies": {
     "expo": "^34.0.1",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "react-native-keyboard-aware-scroll-view": "^0.9.1",
+    "react-native-star-rating": "^1.1.0",
     "react-native-vector-icons": "^6.6.0",
     "react-native-web": "^0.11.4",
     "react-navigation": "2.0.4"
